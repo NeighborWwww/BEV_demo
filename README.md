@@ -101,10 +101,7 @@ machdep.cpu.brand_string: Apple M5
 
 ## 效果演示
 
-<video width="100%" controls>
-  <source src="result.mp4" type="video/mp4">
-  您的浏览器不支持视频播放。
-</video>
+![BEV 合成效果](result.gif)
 
 
 ## 项目结构
