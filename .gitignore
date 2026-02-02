@@ -36,6 +36,7 @@ ENV/
 
 # Project specific
 *.mp4
+!result.mp4
 data/*.mp4
 performance_profile.txt
 profile.stats
