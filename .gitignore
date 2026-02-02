@@ -35,9 +35,8 @@ ENV/
 .DS_Store
 
 # Project specific
-result*.mp4
 *.mp4
-!data/*.mp4
+data/*.mp4
 performance_profile.txt
 profile.stats
 
@@ -48,3 +47,5 @@ profile.stats
 
 # Logs
 *.log
+
+
