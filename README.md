@@ -77,6 +77,10 @@ machdep.cpu.brand_string: Apple M5
     
     - BEV不仅仅是提供给我们停车小白使用的，纯视觉自动驾驶也深度依赖BEV，[BEVtransformer](https://arxiv.org/abs/2203.17270)的架构会给可视的自动驾驶带来更大的动力。毕竟纯视觉的自动驾驶时更贴近直觉和真人驾驶的一种开车方式，也更是适合让车辆跟着人的思维去开车（当然啦，多几个lidar自然也好，谁不喜欢做fusion呢？算力跟上就好啦）
 
+## 效果演示
+
+![BEV 合成效果](result.gif)
+
 ## 应用场景
 
 本工具主要用于：
@@ -98,10 +102,6 @@ machdep.cpu.brand_string: Apple M5
 - 不同车型的摄像头位置、角度和参数可能不同，标定结果不能直接复用
 
 感谢 [tfoldi](https://huggingface.co/tfoldi) 提供的 Tesla Model 3 自动驾驶数据集。
-
-## 效果演示
-
-![BEV 合成效果](result.gif)
 
 
 ## 项目结构
